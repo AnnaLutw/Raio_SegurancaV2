@@ -1,0 +1,27 @@
+.topico{
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 100%;
+
+}
+
+.topico .lista{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    flex-wrap: wrap; /* Quebra para a próxima linha em telas menores */
+}
+.topico li{
+    list-style: none;
+    padding: 5px; /* Espaçamento entre os itens da lista */
+}
+.topico .card{
+    padding: 20px;
+    font-size:larger;
+    box-shadow: 10px 5px 5px black;;
+    
+}
+

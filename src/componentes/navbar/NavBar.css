@@ -1,0 +1,25 @@
+header {
+    background-color: white;
+}
+
+.logo {
+    width: 188px;
+    margin: 10px;
+}
+
+ul li {
+    padding: 10px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .containerFluid ul {
+        flex-direction: column; /* Alinha os itens verticalmente em telas menores */
+        align-items: center; /* Centraliza os itens verticalmente */
+    }
+
+    ul li {
+        padding: 5px 0; /* Espaçamento menor entre os itens */
+    }
+}

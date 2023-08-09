@@ -1,0 +1,83 @@
+
+.servicos {
+    font-size: large;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 70px;
+    background: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgb(255, 255, 255) 100%);
+}
+
+.servicos .titulo{
+    display: flex;
+    justify-content: center;
+    font-family:monospace;
+    font-style: italic;
+   color: rgb(0, 0, 0);
+   font-size: 60px;
+}
+
+.card{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 30px;
+    background-color: rgb(241, 241, 244);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    transition: background-color 0.1s, transform 0.3s;
+   
+}
+
+.card:hover{
+    background-color: rgba(0, 0, 0, 0.299);
+    transform: scale(1.1); /* Aumenta em 10% (1 + 0.1) */
+}
+.card .imgCard{
+    width: 30%;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 10px;
+
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+   
+}
+
+.card:hover img {
+    transform: scale(1); /* Aumenta a imagem em 20% */
+}
+
+.card-body {
+    transition: transform 0.3s;
+}
+
+.card:hover .card-body {
+    transform: scale(1.1);
+    color: white; /* Para mudar a cor do texto quando o mouse passa por cima */
+}
+
+
+.card-body h5{
+    font-size:large;
+    text-align: center;
+}
+.card-body .card-text{
+    font-size:large;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        flex-direction: column;
+    }
+
+    .card .imgCard {
+        width: 60%; /* Ajuste o tamanho da imagem para telas menores */
+        margin-top: 10px; /* Ajuste do espaçamento */
+        margin-left: 0; /* Remover margem à esquerda */
+    }
+}

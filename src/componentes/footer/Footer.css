@@ -1,0 +1,40 @@
+footer {
+    background-color: aliceblue;
+}
+
+footer span {
+    padding: 5vw; /* Espaçamento responsivo */
+    display: block; /* Para ocupar todo o espaço horizontal disponível */
+    text-align: center;
+}
+
+footer .infoFooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer li {
+    list-style: none;
+    padding: 1vw 0; /* Espaçamento responsivo */
+}
+
+footer a{
+    text-decoration: none;
+    color: rgb(71, 71, 71);
+}
+footer a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (min-width: 768px) {
+    footer .infoFooter {
+        flex-direction: row;
+    }
+
+    footer li {
+        padding: 0 1vw; /* Espaçamento responsivo */
+    }
+}

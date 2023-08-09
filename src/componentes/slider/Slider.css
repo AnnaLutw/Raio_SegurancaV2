@@ -1,0 +1,30 @@
+.carousel-item h2 {
+    position: absolute;
+    top: 50%; /* Centraliza verticalmente */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translate(-50%, -50%); /* Centraliza completamente */
+    font-size: 5vw; /* Usando uma unidade de viewport para o tamanho da fonte responsivo */
+    font-family: monospace;
+    color: aliceblue;
+    text-shadow: 2px 2px #000000;
+}
+
+.carousel-item a {
+    position: absolute;
+    top: 82%; /* Centraliza verticalmente */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translate(-50%, -50%); /* Centraliza completamente */
+    text-decoration: none;
+    font-size: 2vw; 
+    background-color: #65656576;
+    border-radius: 4px;
+    padding: 1vw 2vw; /* Espaçamento responsivo */
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.carousel-item a:hover {
+    background-color: #ffffff;
+    color: #000000;
+
+}
